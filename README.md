@@ -5,13 +5,16 @@ Ajudar as três áreas do projeto e principalmente Marcelo com o DB novo que nin
 Gelzo:
 Frontend para o fórum e divisão dos tópicos e funções do forum;
 Ajudar um pouquinho no back também.
+(Angular & AngularJS)
 
 Marcelo:
 Fazer o banco de dados no MongoDB e ajudar Gelzo no frontend.
+(MongoDB)
 
 Dudu:
 Backend para o fórum e organização dos tópicos do forum;
 Ajudar no Banco e dar ideias para o front.
+(NodeJS, AngularJS)
 
 
 

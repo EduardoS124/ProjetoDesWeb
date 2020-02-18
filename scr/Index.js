@@ -2,8 +2,16 @@ const express = require('express')
 const app = express()
 const port = 8080
 
-app.get('/', function(req, res) {
-  res.send('Hello World!')
+app.set("view engine", "ejs")
+
+app.get("/", function(req, res) {
+  res.render("index", {
+    nome: "Gelzo Neto"
+  })
+})
+
+app.get("/user/:nome", function(req, res) {
+    res.send("Este é o perfil de: " + req.params.nome)
 })
 
 app.listen(port, function() {

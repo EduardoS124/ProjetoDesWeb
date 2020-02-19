@@ -1,13 +1,16 @@
-<form class="" action="/calc" method="POST">
-  <input name="n1">
-  <select name="op">
-    <option value="soma">+</option>
-    <option value="sub">-</option>
-    <option value="mult">*</option>
-    <option value="div">/</option>
-  </select>
-  <input name="n2">
-  <button type="submit">OK</button>
-</form>
-
-
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<div class="container-fluid">
+  <form class="" action="/calc" method="POST">
+    <div class="input-group mb-3">
+      <input name="n1">
+      <select name="op">
+        <option value="soma">+</option>
+        <option value="sub">-</option>
+        <option value="mult">*</option>
+        <option value="div">/</option>
+      </select>
+      <input name="n2">
+      <button class="btn btn-outline-danger" type="submit">Calcular</button>
+    </div>
+  </form>
+</div>
